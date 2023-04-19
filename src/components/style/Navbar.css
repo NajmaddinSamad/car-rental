@@ -155,7 +155,7 @@ h5{
     transition: width .4s ease;
 }
 
-/* ---media queries */
+/* ----media queries */
 
 @media(max-width:1200px){
 .navbar{
