@@ -61,11 +61,11 @@ const Navbar = () => {
             <SiInstagram className='insta'/>
         </div>
     </div>
- <nav className="navbar">
+ <nav className="my-navbar">
     <div className="logo">
         <img src="	https://grandcarrentalv1.b-cdn.net/wp-content/themes/grandcarrental/images/logo@2x_white.png" alt="" />
     </div>
-    <div className="links">
+    <div className="my-links">
         <ul className='ul-links'>
             <li>
                <a href="#">home</a>
