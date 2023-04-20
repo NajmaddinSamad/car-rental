@@ -38,7 +38,7 @@ const Navbar = () => {
                <a href="#">cars</a>
             </li>
             <li>
-               <a href="#">boking</a>
+               <a href="#">booking</a>
             </li>
             <li>
                <a href="#">services</a>
@@ -74,7 +74,7 @@ const Navbar = () => {
                <a href="#">cars</a>
             </li>
             <li>
-               <a href="#">boking</a>
+               <a href="#">booking</a>
             </li>
             <li>
                <a href="#">services</a>
