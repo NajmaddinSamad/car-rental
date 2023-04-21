@@ -154,7 +154,8 @@ h5{
 
 .is-active{
     width:27%;
-    transition: width .4s ease;
+    transition: width .3s ease;
+    overflow-x: hidden;
 }
 
 /* ----media queries */

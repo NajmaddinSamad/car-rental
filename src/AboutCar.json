@@ -80,8 +80,8 @@
     {
         "carName": "BMW",
         "carModel": "M5",
-        "carType": "",
-        "price": "",
+        "carType": "Sedan",
+        "price": "130",
         "carPhoto1": "https://hips.hearstapps.com/hmg-prod/images/2021-bmw-m5-competition-1146-1625696565.jpg?crop=0.536xw:0.600xh;0.168xw,0.400xh&resize=640:*",
         "carPhoto2": "https://images.clickdealer.co.uk/vehicles/4587/4587080/large2/107092684.jpg",
         "transmission": "Automatic",
