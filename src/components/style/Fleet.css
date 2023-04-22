@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.fleet{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-attachment: fixed;
+    background-color: #000;
+    opacity: .9;
+
+
+    
+}
+
+#myVideo{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    object-fit: cover;
+    height: 100vh;
+    z-index: -4;
+}
+
+.fleet h3{
+    font-size: 2.3rem;
+    font-weight: 700;
+     text-transform: capitalize;
+     color: #fff;
+      
+ }
+ 
+ .fleet h6{
+     color: #c6c6c6;
+     font-size: 1.1rem;
+     font-weight: 500;
+     padding: 10px 0 50px;
+   
+ }
+
+ .fleet a{
+    font-size: 2rem;
+    color: #000;
+    padding: 0 ;
+    text-decoration: none;
+    color: #fff;
+   }
+
+ .fleet-btn{
+    background-color: #04DBC0;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    padding: 10px 23px ;
+    font-size: 1.2rem;
+   }
+
+ .fleet-btn:hover{
+    background-color:#5856d6;
+    transition: color 1.2s ease;
+ }
+
+ /* ---media-queries */
+
+ 
+
+ @media(max-width:768px){
+.fleet{
+    padding: 0 16px;
+}
+ }
+
+ @media(max-width:576px){
+.fleet{
+    padding: 0 4px;
+}
+ }
+
+ @media(max-width:376px){
+    .fleet{
+        padding: 0 2px;
+    }
+}
