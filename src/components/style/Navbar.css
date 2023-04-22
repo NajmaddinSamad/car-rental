@@ -284,8 +284,9 @@ h5{
 
 @media(max-width:376px){
 .my-navbar{
-        padding: 0;
+        padding: 0 2px;
         justify-content: space-between;
+    
     }
     .is-active{
         width: 40%;

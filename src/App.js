@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Header from './components/Header';
 import CarRental from './components/CarRental';
 import CarTypes from './components/CarTypes';
+import Fleet from './components/Fleet';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
     <Header/>
     <CarRental/>
     <CarTypes/>
+    <Fleet/>
     
     </>
   );
