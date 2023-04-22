@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.choose-us{
+    text-align: center;
+    background-color: #5856d6;
+    color: #fff;
+    padding: 60px 40px;
+}
+
+.choose-us h2{
+    font-size:2.3rem ;
+    font-weight: 700;
+    padding-bottom: 5px;
+
+}
+
+.choose-us h6{
+    font-size:1rem ;
+    padding-bottom: 60px;
+    font-weight: 500;
+}
+
+.choose-card h3{
+    font-size: 1.3rem;
+}
+
+.choose-card p{
+    font-size:1rem ;
+    padding: 11px 0 20px;
+}
+
+.choose-car, .choose-heart, .choose-smile{
+    font-size: 3.2rem;
+    margin-bottom: 20px;
+}
+
+/* ---media queries  */
+
+@media(max-width:1200px){
+    .choose-us{
+        padding: 60px 30px;
+    }
+}
+@media(max-width:991px){
+    .choose-us{
+        padding: 50px 16px;
+    }
+}
+@media(max-width:768px){
+    .choose-us{
+        padding: 50px 10px;
+    }
+}
+@media(max-width:576px){
+    .choose-us{
+        padding: 40px 4px;
+    }
+}
+@media(max-width:376px){
+    .choose-us{
+        padding: 30px 2px;
+    }
+}

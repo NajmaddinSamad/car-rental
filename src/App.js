@@ -5,6 +5,7 @@ import Header from './components/Header';
 import CarRental from './components/CarRental';
 import CarTypes from './components/CarTypes';
 import Fleet from './components/Fleet';
+import ChooseUs from './components/ChooseUs';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
     <CarRental/>
     <CarTypes/>
     <Fleet/>
+    <ChooseUs/>
     
     </>
   );
