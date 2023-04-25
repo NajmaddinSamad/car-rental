@@ -1,4 +1,5 @@
 import React from 'react'
+import './style/Normalize.css'
 import './style/ChooseUs.css'
 import { FaCarSide } from "react-icons/fa";
 import { BsEmojiSmile } from "react-icons/bs";
