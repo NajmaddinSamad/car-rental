@@ -6,6 +6,9 @@ import CarRental from './components/CarRental';
 import CarTypes from './components/CarTypes';
 import Fleet from './components/Fleet';
 import ChooseUs from './components/ChooseUs';
+import { ArticleTip } from './components/ArticleTip.';
+import Footer from './components/Footer';
+
 
 function App() {
   return (
@@ -16,6 +19,8 @@ function App() {
     <CarTypes/>
     <Fleet/>
     <ChooseUs/>
+    <ArticleTip/>
+    <Footer/>
     
     </>
   );
