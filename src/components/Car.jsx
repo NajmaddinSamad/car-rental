@@ -1,6 +1,6 @@
 import React from 'react'
 import './style/CarRental.css'
-const Cars = ({carName,carPhoto}) => {
+const Car = ({carName,carPhoto}) => {
   return (
     <>
 
@@ -18,4 +18,4 @@ const Cars = ({carName,carPhoto}) => {
   )
 }
 
-export default Cars
+export default Car

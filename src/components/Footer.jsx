@@ -10,6 +10,7 @@ import { TfiPinterestAlt } from "react-icons/tfi";
 import { SiInstagram } from "react-icons/si";
 import { GiSmartphone } from "react-icons/gi";
 import { CiClock2 } from "react-icons/ci";
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
    <>
@@ -48,11 +49,11 @@ const Footer = () => {
 <p>&copy; Created by Najmaddin Samad</p>
        </div>
        <div className="right-side-footer col-12 col-md-6 col-lg-6">
-        <a href="#">Cars</a>
-        <a href="#">Booking</a>
-        <a href="#">services</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
+        <Link to="/cars">Cars</Link>
+        <Link to="/booking">Booking</Link>
+        <Link to="/services">services</Link>
+        <Link to="/about">About</Link>
+        <Link to="/contact">Contact</Link>
        </div>
     </div>
 
