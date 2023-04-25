@@ -1,26 +1,35 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Navbar from './components/Navbar';
-import Header from './components/Header';
-import CarRental from './components/CarRental';
-import CarTypes from './components/CarTypes';
-import Fleet from './components/Fleet';
-import ChooseUs from './components/ChooseUs';
-import { ArticleTip } from './components/ArticleTip.';
 import Footer from './components/Footer';
+import Home from './pages/Home';
+import Cars from './pages/Cars';
+import Booking from './pages/Booking';
+import Services from './pages/Services';
+import Contact from './pages/Contact';
+import About from './pages/About';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 
 
 function App() {
   return (
     <>
-    <Navbar/>
-    <Header/>
-    <CarRental/>
-    <CarTypes/>
-    <Fleet/>
-    <ChooseUs/>
-    <ArticleTip/>
-    <Footer/>
+ <BrowserRouter>
+        <Navbar/>
+           <Routes>
+             <Route path="/" element={<Home />}/>
+               <Route path="cars" element={<Cars />} />
+               <Route path="booking" element={<Booking />} />
+               <Route path="services" element={<Services />} />
+               <Route path="contact" element={<Contact />} />
+               <Route path="about" element={<About />} />
+               {/* <Route path="*" element={<NotFound />} /> */}
+       
+           </Routes>
+           <Footer/>
+         </BrowserRouter>
+
     
     </>
   );

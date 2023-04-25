@@ -10,6 +10,7 @@ import { TfiPinterestAlt } from "react-icons/tfi";
 import { SiInstagram } from "react-icons/si";
 import { GiSmartphone } from "react-icons/gi";
 import { CiClock2 } from "react-icons/ci";
+import { Link } from "react-router-dom";
 const Navbar = () => {
 
     const offcanvasRef = useRef();
@@ -32,27 +33,27 @@ const Navbar = () => {
         < RxCrossCircled className='x-icon ' onClick={closeOffcanvas} />
         <ul className='off-canvas-links'>
         <li>
-               <a href="#">home</a>
+               <Link  to="/">home</Link>
             </li>
             <li>
-               <a href="#">cars</a>
+               <Link  to="/cars">cars</Link>
             </li>
             <li>
-               <a href="#">booking</a>
+               <Link  to="/booking">booking</Link>
             </li>
             <li>
-               <a href="#">services</a>
+               <Link  to="/services">services</Link>
             </li>
             <li>
-               <a href="#">about</a>
+               <Link  to="/about">about</Link>
             </li>
             <li>
-               <a href="#">contact</a>
+               <Link  to="/contact">contact</Link>
             </li>
         </ul>
         <h5>for more information</h5>
-        <span><GiSmartphone className='phone-icon' /><a href="tell:1-567-124-44227">1-567-124-44227</a></span>
-        <span><CiClock2 className='clock-icon'/><a href="">Mon - Sat 8.00 - 18.00</a></span>
+        <span><GiSmartphone className='phone-icon' /><Link  to="tell:1-567-124-44227">1-567-124-44227</Link></span>
+        <span><CiClock2 className='clock-icon'/><Link  to="">Mon - Sat 8.00 - 18.00</Link></span>
         <div className="social">
             <AiFillFacebook className='face'/>
             <TbBrandTwitter className='twitter' />
@@ -68,22 +69,22 @@ const Navbar = () => {
     <div className="my-links">
         <ul className='ul-links'>
             <li>
-               <a href="#">home</a>
+               <Link  to="/">home</Link>
             </li>
             <li>
-               <a href="#">cars</a>
+               <Link  to="/cars">cars</Link>
             </li>
             <li>
-               <a href="#">booking</a>
+               <Link  to="/booking">booking</Link>
             </li>
             <li>
-               <a href="#">services</a>
+               <Link  to="/services">services</Link>
             </li>
             <li>
-               <a href="#">about</a>
+               <Link  to="/about">about</Link>
             </li>
             <li>
-               <a href="#">contact</a>
+               <Link  to="/contact">contact</Link>
             </li>
      
           

@@ -1,29 +1,10 @@
-import React from 'react'
-import './style/Normalize.css'
-import './style/Header.css'
-import Buttons from './Buttons'
-import { BsCart3 } from "react-icons/bs";
-import { AiOutlineHeart } from "react-icons/ai";
-import { BsWhatsapp } from "react-icons/bs";
+import React from 'react';
+import Buttons from './Buttons';
 
-const Header = () => {
+const CarsSearchBar = () => {
   return (
- <>
- <aside className="add">
-  <BsCart3 className='cart-icon'/>
-  <AiOutlineHeart className='heart-icon'/>
-  <BsWhatsapp className='whatsapp-icon'/>
- </aside>
-<header className="home-header">
-  <div className="h-content">
-  <h1 className="header-content">
-    Find Best Car & Limousine
-    </h1>
-    <h6 className='price'>
-      From as low as $10 per day with limited time offer discount
-    </h6>
-  </div>
-   <form className="search-box row">
+   <>
+    <form className="cars-header-search-box row">
    
    <select name="" id="" className=" col-12 col-md-2 col-lg-2 select">
       <option value="Any brand">Any brand</option>
@@ -47,10 +28,8 @@ const Header = () => {
     </select>
     <Buttons nameOfClass='col-12 col-md-2 col-lg-2 search-btn' valueOfButton='search'/>
    </form>
-
-</header>
- </>
+   </>
   )
 }
 
-export default Header
+export default CarsSearchBar

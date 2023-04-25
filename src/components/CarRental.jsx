@@ -1,7 +1,7 @@
 import React from 'react'
 import './style/Normalize.css'
 import './style/CarRental.css'
-import Cars from './Cars'
+import Car from './Car'
 import DataOfCars from '../AboutCar.json'
 
 const CarRental = () => {
@@ -18,7 +18,7 @@ We offer professional car rental & limousine services in our range of high-end v
 </h6>
     {
       DataOfCars.map(data=>(
-        <Cars carName = {data.carName} carPhoto={data.carPhoto1} />
+        <Car carName = {data.carName} carPhoto={data.carPhoto1} />
       ))
     }
 
