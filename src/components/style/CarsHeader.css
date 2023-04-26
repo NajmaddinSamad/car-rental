@@ -7,7 +7,8 @@
 .cars-header{
     width: 100%;
     height: 100vh;
+    background: url("https://grandcarrentalv1.b-cdn.net/wp-content/uploads/2017/01/driver-2.jpg") ;
     background-size: cover;
     background-attachment: fixed;
-    background: url("https://grandcarrentalv1.b-cdn.net/wp-content/uploads/2017/01/driver-2.jpg") ;
+    
 }

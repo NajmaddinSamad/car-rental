@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.for-cars-search-box{
+    padding:50px 40px ;
+     display: flex;
+     justify-content: center;
+     width: 100%;
+}
+
+.cars-header-search-box{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 30px;
+    border-radius: 5px;
+    border: 1px solid #e1e1e1;
+    -webkit-box-shadow: 0 5px 40px rgba(0,0,0,.15);
+    -moz-box-shadow: 0 5px 40px rgba(0,0,0,.15);
+    box-shadow: 0 5px 40px rgba(0,0,0,.15);
+}
+.for-select{
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 5px;
+    margin:10px 5px;
+    padding: 12px 20px;
+    outline: none;
+    color:#555;
+    font-size: 1rem;
+    max-width: 23%;
+}
+
+
+.searching-btn{
+    background-color: #04DBC0;
+border: none;
+border-radius: 5px;
+padding: 12px 0 ;
+color: #fff;
+margin:10px 5px;
+font-size: 1.2rem;
+text-transform: capitalize;
+max-width: 23%;
+}
+
+
+
+/* ---media queries */
+
+@media(max-width:1200px){
+    .for-cars-search-box{
+        padding:50px 57px ;
+    }
+}
+@media(max-width:991px){
+    .for-cars-search-box{
+        padding:50px 43px ;
+    }
+}
+@media(max-width:768px){
+    .for-cars-search-box{
+        padding:50px 10px ;
+    }
+
+    .cars-header-search-box{
+        justify-content: center;
+    }
+
+    .for-select{
+        max-width: 100%;
+    }
+    .searching-btn{
+        max-width: 100%;
+    }
+}
+@media(max-width:576px){
+    .for-cars-search-box{
+        padding:40px 4px ;
+    }
+}
+@media(max-width:376px){
+    .for-cars-search-box{
+        padding:30px 2px ;
+    }
+}
