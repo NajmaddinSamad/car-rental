@@ -7,12 +7,14 @@
 .home-header{
     width: 100%;
     height: 100vh;
-background: url('https://grandcarrentalv1.b-cdn.net/wp-content/uploads/2017/01/IMG_3496bfree.jpg'); 
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-padding: 0 40px;
+    background: url('https://grandcarrentalv1.b-cdn.net/wp-content/uploads/2017/01/IMG_3496bfree.jpg'); 
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 40px;
 }
 
 

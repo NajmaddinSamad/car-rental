@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main.everything-for-cars{
+    grid-template: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    padding: 0 40px 50px;  
+}
+
+.everything-about-cars{
+    padding:0;
+    margin: 0 ;
+    border: 1px solid rgba(23, 57, 152, .3);
+    border-radius: 5px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.everything-about-cars:hover{
+    transform: translateY(-5px);
+    box-shadow: -1px -2px 31px 10px rgba(0,0,0,0.51);
+    -webkit-box-shadow: -1px -2px 31px 10px rgba(0,0,0,0.51);
+    -moz-box-shadow: -1px -2px 31px 10px rgba(0,0,0,0.51);
+    transition: all .6s ease;
+    cursor: pointer;
+}
+
+
+.img-cars img{
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+    border-radius: 5px 5px 0 0;
+}
+
+.down{
+    display: flex;
+    width: 100%;
+    padding: 10px 20px;
+    justify-content: space-between;
+}
+
+.about-cars-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.about-cars-left h3{
+   width: 100%;
+   flex-wrap: nowrap;
+    font-size: 1.3rem;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.about-cars-left span{
+    display: flex;
+    }
+
+.about-cars-left span .blue-star{
+    color: rgba(28, 90, 149, 0.867);
+}
+
+.about-cars-left span .empty-star{
+    background-color: #fff;
+}
+
+.about-cars-left span h6{
+padding-left: 5px;
+}
+.count-luggage{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 0 0;
+}
+
+.about-cars-right{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    position: relative;
+}
+
+.about-cars-right h1{
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.about-cars-right h6{
+    position: absolute;
+    top: 3px;
+    right: 50px;
+    margin-right: 5px;
+    font-size: 1.3rem;
+}
+.about-cars-right h5{
+    color:rgba(0, 0, 0, .7);
+    font-size: .7rem;
+}
+
+.count-luggage div{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    font-size: 1rem;
+    color: rgba(0, 0, 0, .6);
+
+}
+
+.count-luggage h6 {
+padding-top: 7px;
+}
+
+
+/* ---media queries */
+
+@media(max-width:1200px){
+    main.everything-for-cars{
+        padding: 0 30px 50px;
+      
+    }
+}
+@media(max-width:991px){
+
+  main.everything-for-cars{
+    padding: 0 16px 50px;
+  }
+}
+@media(max-width:768px){
+    main.everything-for-cars{
+        padding: 0 10px 50px;
+      
+    }
+    .everything-about-cars{
+        margin:15px 0;
+    }
+}
+@media(max-width:576px){
+    main.everything-for-cars{
+        padding: 0 4px 40px;
+      
+    }
+
+    .everything-about-cars{
+        padding: 0;
+        margin:15px 0;     
+    }
+
+}
+@media(max-width:376px){
+    main.everything-for-cars{
+        padding: 0 2px 30px;
+      
+    }
+}
+
