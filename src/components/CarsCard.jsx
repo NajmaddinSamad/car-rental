@@ -38,7 +38,8 @@ const CarsCard = ({imgCard1, imgCard2,carName, carModel,passengerCount, luggageC
       </div>
       <div className="transmission">
         <TbEngine/>
-        <h6>{transmission}</h6>
+        <h6>
+          {transmission}</h6>
       </div>
    </div>
     </div>

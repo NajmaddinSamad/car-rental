@@ -1,10 +1,13 @@
 import React from 'react'
+import CarBookingHeader from '../components/CarBookingHeader'
+import CarBookingAbout from '../components/CarBookingAbout'
 
 const Booking = () => {
   return (
    <>
 
-   <h1 className='w-100 display-1'>booking</h1>
+   <CarBookingHeader/>
+   <CarBookingAbout/>
    </>
   )
 }
