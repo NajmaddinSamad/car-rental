@@ -11,6 +11,9 @@ import { SiInstagram } from "react-icons/si";
 import { GiSmartphone } from "react-icons/gi";
 import { CiClock2 } from "react-icons/ci";
 import { Link } from "react-router-dom";
+import { BsCart3 } from "react-icons/bs";
+import { AiOutlineHeart } from "react-icons/ai";
+import { BsWhatsapp } from "react-icons/bs";
 const Navbar = () => {
 
     const offcanvasRef = useRef();
@@ -92,6 +95,11 @@ const Navbar = () => {
        < GoThreeBars className='bar-icon' onClick={openOffcanvas}/>
     </div>
  </nav>
+ <aside className="add">
+  <BsCart3 className='cart-icon'/>
+  <AiOutlineHeart className='heart-icon'/>
+  <BsWhatsapp className='whatsapp-icon'/>
+ </aside>
     </>
   )
 }

@@ -2,18 +2,11 @@ import React from 'react'
 import './style/Normalize.css'
 import './style/Header.css'
 import Buttons from './Buttons'
-import { BsCart3 } from "react-icons/bs";
-import { AiOutlineHeart } from "react-icons/ai";
-import { BsWhatsapp } from "react-icons/bs";
 
 const Header = () => {
   return (
  <>
- <aside className="add">
-  <BsCart3 className='cart-icon'/>
-  <AiOutlineHeart className='heart-icon'/>
-  <BsWhatsapp className='whatsapp-icon'/>
- </aside>
+
 <header className="home-header">
   <div className="h-content">
   <h1 className="header-content">

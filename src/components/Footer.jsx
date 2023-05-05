@@ -27,11 +27,11 @@ const Footer = () => {
 <span><CiClock2/><a href="#">Mon - Sat 8.00 - 18.00 Sunday CLOSED</a></span>
 
 <div className="social-links-footer">
-    <a href="https://facebook.com" className='face-icon'>< TfiFacebook/></a>
-    <a href="https://twitter.com" className='twit-icon'><GrTwitter/></a>
-    <a href="https://youtube.com" className='youtube-icon'><TfiYoutube/></a>
-    <a href="https://pinterest.com" className='pinterest-icon'><TfiPinterestAlt/></a>
-    <a href="https://instagram.com" className='insta-icon'> <SiInstagram/></a>
+    <span>< TfiFacebook/></span>
+    <span><GrTwitter/></span>
+    <span><TfiYoutube/></span>
+    <span><TfiPinterestAlt/></span>
+    <span> <SiInstagram/></span>
 </div>
 
 

@@ -1,9 +1,14 @@
 import React from 'react'
+import ContactHeader from '../components/ContactHeader'
+import ContactUsSection from '../components/ContactUsSection'
+import Address from '../components/Address'
 
 const Contact = () => {
   return (
    <>
-   <h1 className='w-100 display-1'>contact</h1>
+   <ContactHeader/>
+   <ContactUsSection/>
+   <Address/>
    </>
   )
 }
