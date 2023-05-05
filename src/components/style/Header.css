@@ -150,6 +150,10 @@ transform: translateY(5px);
     .home-header{
         padding: 0 10px;
     }
+
+    .header-content{
+        font-size: 2.5rem;
+    }
 select.select{
     width: 70%;
     margin-bottom: 20px;
@@ -179,6 +183,10 @@ select.select{
     .header-content{
         font-size: 2.2rem;
         padding-top: 20px;
+    }
+
+    .header-content{
+        font-size: 2.2rem;
     }
 
 }
