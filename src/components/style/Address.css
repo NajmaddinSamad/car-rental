@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.address{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    color: #fff;
+}
+
+.address div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 40px;
+}
+.address h2{
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding-bottom: 15px;
+    z-index: 2;
+}
+.address h4{
+font-size: 1.2rem;
+font-weight: 700;
+padding: 5px;
+z-index: 2;
+}
+
+.address-left{
+background: url('https://grandcarrentalv1.b-cdn.net/wp-content/uploads/2017/01/pexels-photo-165888.jpeg');
+position: relative;
+background-size:cover;
+background-repeat: no-repeat;
+}
+
+
+.address-right{
+    background: url('https://grandcarrentalv1.b-cdn.net/wp-content/uploads/2017/01/cfi7_hcxecu-anthony-delanoix.jpg');
+    background-size: contain;
+    position: relative;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.fon{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, .4);
+}
