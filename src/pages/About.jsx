@@ -1,9 +1,16 @@
 import React from 'react'
+import AboutHeader from '../components/AboutHeader'
+import Adventure from '../components/Adventure'
+import TouchWithUs from '../components/TouchWithUs'
+import OurTeam from '../components/OurTeam'
 
 const About = () => {
   return (
     <>
-    <h1 className='w-100 display-1'>about</h1>
+   <AboutHeader/>
+   <Adventure/>
+   <TouchWithUs/>
+   <OurTeam/>
     
     </>
   )
