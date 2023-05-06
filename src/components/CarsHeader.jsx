@@ -6,9 +6,7 @@ import Buttons from './Buttons'
 const CarsHeader = () => {
   return (
   <>
-  <header className="cars-header">
- 
-  </header>
+  <header className="cars-header"> </header>
   </>
   )
 }

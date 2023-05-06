@@ -1,4 +1,4 @@
-import React from 'react'
+import {React,useEffect} from 'react'
 import './style/Normalize.css'
 import './style/Footer.css'
 import Buttons from './Buttons'
@@ -11,10 +11,15 @@ import { SiInstagram } from "react-icons/si";
 import { GiSmartphone } from "react-icons/gi";
 import { CiClock2 } from "react-icons/ci";
 import { Link } from "react-router-dom";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const Footer = () => {
+    useEffect(() => {
+        AOS.init();
+      }, [])
   return (
    <>
-   <footer className="row">
+   <footer className="row"  >
     <div className="about-us col-12 col-md-4 col-lg-4">
         <h4>About Us</h4>
         <p>Getting dressed up and traveling with good friends makes for a shared, unforgettable experience.</p>

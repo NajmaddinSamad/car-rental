@@ -1,4 +1,4 @@
-import React, {useRef} from 'react'
+import React, {useRef, useEffect} from 'react'
 import './style/Normalize.css'
 import './style/Navbar.css'
 import { GoThreeBars } from "react-icons/go";
@@ -14,6 +14,8 @@ import { Link } from "react-router-dom";
 import { BsCart3 } from "react-icons/bs";
 import { AiOutlineHeart } from "react-icons/ai";
 import { BsWhatsapp } from "react-icons/bs";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const Navbar = () => {
 
     const offcanvasRef = useRef();
@@ -29,6 +31,9 @@ const Navbar = () => {
           offcanvasRef.current.classList.remove('is-active');
         }
       };
+      useEffect(() => {
+         AOS.init();
+       }, [])
     
   return (
     <>
@@ -65,11 +70,11 @@ const Navbar = () => {
             <SiInstagram className='insta'/>
         </div>
     </div>
- <nav className="my-navbar">
-    <div className="logo">
+ <nav className="my-navbar" data-aos="fade-down"  data-aos-duration="500">
+    <div className="logo" data-aos="fade-right"  data-aos-duration="700">
         <img src="	https://grandcarrentalv1.b-cdn.net/wp-content/themes/grandcarrental/images/logo@2x_white.png" alt="" />
     </div>
-    <div className="my-links">
+    <div className="my-links" data-aos="fade-left"  data-aos-duration="700">
         <ul className='ul-links'>
             <li>
                <Link  to="/">home</Link>

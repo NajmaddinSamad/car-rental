@@ -1,14 +1,19 @@
-import React from 'react'
+import {React, useEffect} from 'react'
 import './style/Normalize.css'
 import './style/ServicesHeader.css'
 import { FaCarSide } from "react-icons/fa";
 import { BsEmojiSmile } from "react-icons/bs";
 import { AiOutlineHeart } from "react-icons/ai";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const ServicesHeader = () => {
+  useEffect(() => {
+    AOS.init();
+  }, [])
   return (
 <>
 <header className="services-header">
-<section className="choose-us row">
+<section className="choose-us row" data-aos="flip-up">
 <h2 className='pb-5'>Premium Car Rental & Limousines Services</h2>
 
     < div className="choose-card col-12 col-md-4 col-lg-4">

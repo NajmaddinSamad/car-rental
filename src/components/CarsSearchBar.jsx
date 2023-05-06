@@ -1,12 +1,17 @@
-import React from 'react';
+import {React, useEffect} from 'react';
 import './style/Normalize.css'
 import './style/CarsSearchBar.css'
 import Buttons from './Buttons';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const CarsSearchBar = () => {
+  useEffect(() => {
+    AOS.init();
+  }, [])
   return (
    <>
-   <section className="for-cars-search-box">
+   <section className="for-cars-search-box" data-aos="flip-up">
    <form className=" row cars-header-search-box">
    
    <select name="" id="" className=" col-12 col-md-3 col-lg-3 for-select">

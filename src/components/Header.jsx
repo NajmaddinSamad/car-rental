@@ -1,9 +1,14 @@
-import React from 'react'
+import {React, useEffect} from 'react'
 import './style/Normalize.css'
 import './style/Header.css'
 import Buttons from './Buttons'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Header = () => {
+  useEffect(() => {
+    AOS.init();
+  }, [])
   return (
  <>
 
@@ -16,7 +21,7 @@ const Header = () => {
       From as low as $10 per day with limited time offer discount
     </h6>
   </div>
-   <form className="search-box row">
+   <form className="search-box row" data-aos="flip-up">
    
    <select name="" id="" className=" col-12 col-md-2 col-lg-2 select">
       <option value="Any brand">Any brand</option>
