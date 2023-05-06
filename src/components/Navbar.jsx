@@ -98,7 +98,7 @@ const Navbar = () => {
  <aside className="add">
   <BsCart3 className='cart-icon'/>
   <AiOutlineHeart className='heart-icon'/>
-  <BsWhatsapp className='whatsapp-icon'/>
+  <a aria-label="Chat on WhatsApp" href="https://wa.me/994709909509"> <BsWhatsapp className='whatsapp-icon'/></a>
  </aside>
     </>
   )

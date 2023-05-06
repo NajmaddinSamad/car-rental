@@ -52,10 +52,10 @@
     color:#fff;
     cursor: pointer;
 }
-.ul-links li a:hover , .bar-icon:hover{
+/* .ul-links li a:hover , .bar-icon:hover{
     color:#04DBC0;
     transition: color 1.2s ease;
-}
+} */
 .off-canvas{
     position: fixed;
     display: flex;
@@ -89,10 +89,10 @@
 
 }
 
-.off-canvas-links a:hover{
+/* .off-canvas-links a:hover{
 color:#04DBC0;
 transition: color  1.2s ease;
-}
+} */
 
 .x-icon{
     position: absolute;
@@ -128,10 +128,10 @@ h5{
 
 }
 
-.off-canvas-links .insta:hover , .face:hover , .pinterest:hover , .twitter:hover , .youtube:hover{
+/* .off-canvas-links .insta:hover , .face:hover , .pinterest:hover , .twitter:hover , .youtube:hover{
     color:#04DBC0;
     transition: color  1.2s ease;
-    }
+    } */
 .phone-icon , .clock-icon{
     color: #fff;
     font-size: 1rem;
@@ -211,10 +211,10 @@ transform: translateY(5px);
     }
 }
 
-.heart-icon:hover , .cart-icon:hover {
+/* .heart-icon:hover , .cart-icon:hover {
     color: #04DBC0;
     transition: color 1.2s ease;
-}
+} */
 
 /* ----media queries */
 
@@ -305,7 +305,7 @@ transform: translateY(5px);
     }
     
     .is-active{
-        width: 35%;
+        width: 50%;
     }
     
     .insta , .face , .pinterest , .twitter , .youtube {
@@ -314,7 +314,7 @@ transform: translateY(5px);
     
     }
     .off-canvas-links{
-        margin-left: 15px;
+        margin-left: 10px;
     }
 
     .off-canvas-links li a{
@@ -324,11 +324,11 @@ transform: translateY(5px);
     .phone-icon , .clock-icon{
         font-size: 1rem;
         margin-right: 5px;
-        margin-left: 15px;
+        margin-left: 10px;
     }
     
     .social{
-        margin-left: 15px;
+        margin-left: 10px;
     }
     
     .off-canvas h5{
