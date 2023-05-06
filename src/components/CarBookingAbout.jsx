@@ -24,13 +24,12 @@ const CarBookingAbout = ({carName, carModel, passengerCount, luggageCount,transm
         <div className="left-side-booking-up">
           <h1>Audi A4</h1>
           <h6>
-            <span>
-                <AiFillStar/>
-                <AiFillStar/>
-                <AiFillStar/>
-                <AiFillStar/>
-                <AiOutlineStar/>
-                 </span>
+  <span> <AiFillStar/></span>
+  <span> <AiFillStar/></span>
+  <span> <AiFillStar/></span>
+  <span> <AiFillStar/></span>
+  <span><AiOutlineStar/></span>
+                
                   <span>4 reviews</span>
           </h6>
         </div>

@@ -1,8 +1,7 @@
 import React from 'react'
 import './style/Normalize.css'
 import './style/Fleet.css'
-import './Buttons'
-import Buttons from './Buttons'
+import Button from './Buttons'
 import backVideo from "../bgvideo/Lexus Exclusive Limousine Service.mp4"
 const Fleet = () => {
   return (
@@ -21,7 +20,7 @@ and business industry, stand out for their quality and good taste, to offer you 
     </h6>
 
     <a href="tell:(54)-344-4533-4">Call Now (54)-344-4533-4</a>
-<Buttons nameOfClass='fleet-btn' valueOfButton='Request a Quote'/>
+<Button nameOfClass='fleet-btn' valueOfButton='Request a Quote'/>
 </section>
 
 </>

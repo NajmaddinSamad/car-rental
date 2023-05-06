@@ -7,6 +7,7 @@ import { GrTwitter } from "react-icons/gr";
 import { TfiYoutube } from "react-icons/tfi";
 import { TfiPinterestAlt } from "react-icons/tfi";
 import { SiInstagram } from "react-icons/si";
+import Modal from './ModalBox'
 
 const ContactUsSection = () => {
   return (

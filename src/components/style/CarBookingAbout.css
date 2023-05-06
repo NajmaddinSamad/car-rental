@@ -21,6 +21,23 @@
     padding-bottom: .6rem;
 }
 
+.left-side-booking-up h6 span:nth-child(1){
+    color: rgb(87, 87, 184);
+}
+.left-side-booking-up h6 span:nth-child(2){
+    color: rgb(87, 87, 184);
+}
+.left-side-booking-up h6 span:nth-child(3){
+    color: rgb(87, 87, 184);
+}
+.left-side-booking-up h6 span:nth-child(4){
+    color: rgb(87, 87, 184);
+}
+
+.left-side-booking-up h6 span:nth-child(6){
+    padding-inline-start: 10px;
+}
+
 .left-side-down-icons{
     border-top: 1px solid rgba(0, 0, 0, .2);
     border-bottom: 1px solid rgba(0, 0, 0, .2);
@@ -140,6 +157,7 @@ margin: 0 !important;
     margin:0 0 11px 0;
     border:  1px solid rgba(0, 0, 0, .2);
     border-radius: 5px;
+    width: 100%;
 }
 
 .car-booking label{
