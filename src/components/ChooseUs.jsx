@@ -1,13 +1,18 @@
-import React from 'react'
+import {React, useEffect} from 'react'
 import './style/Normalize.css'
 import './style/ChooseUs.css'
 import { FaCarSide } from "react-icons/fa";
 import { BsEmojiSmile } from "react-icons/bs";
 import { AiOutlineHeart } from "react-icons/ai";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const ChooseUs = () => {
+  useEffect(() => {
+    AOS.init();
+  }, [])
   return (
 <>
-<section className="section choose-us row">
+<section className="section choose-us row" data-aos="fade-up">
 <h2>Why Choose Us</h2>
 <h6>Explore our first class limousine & car rental services</h6>
 

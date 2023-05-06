@@ -1,4 +1,4 @@
-import React from "react";
+import {React, useEffect} from "react";
 import "./CarsCard";
 import "./style/Normalize.css";
 import "./style/CarBookingAbout.css";
@@ -15,12 +15,17 @@ import { RxCross1 } from "react-icons/rx";
 import Buttons from './Buttons'
 import CarsCard from "./CarsCard";
 import carData from '../AboutCar.json'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const CarBookingAbout = ({carName, carModel, passengerCount, luggageCount,transmission,doors }) => {
+  useEffect(() => {
+    AOS.init();
+  }, [])
   return (
     <>
       <section className="car-booking-about row">
-        <div className="left-side-booking col-12 col-md-8 col-lg-8">
+        <div className="left-side-booking col-12 col-md-8 col-lg-8"  data-aos="fade-up-right">
         <div className="left-side-booking-up">
           <h1>Audi A4</h1>
           <h6>
@@ -114,7 +119,7 @@ const CarBookingAbout = ({carName, carModel, passengerCount, luggageCount,transm
       </div>
         </div>
         </div>
-        <div className="right-side-booking col-12 col-md-4 col-lg-4">
+        <div className="right-side-booking col-12 col-md-4 col-lg-4"  data-aos="fade-up-left">
 <form action="#" className="car-booking">
   <label htmlFor="">Full Name:
   </label>

@@ -1,4 +1,4 @@
-import React from 'react'
+import {React, useEffect} from 'react'
 import './style/Normalize.css'
 import './style/ContactUsSection.css'
 import Button from './Buttons'
@@ -7,12 +7,16 @@ import { GrTwitter } from "react-icons/gr";
 import { TfiYoutube } from "react-icons/tfi";
 import { TfiPinterestAlt } from "react-icons/tfi";
 import { SiInstagram } from "react-icons/si";
-import Modal from './ModalBox'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const ContactUsSection = () => {
+  useEffect(() => {
+    AOS.init();
+  }, [])
   return (
     <>
-        <section className="contact-us">
+        <section className="contact-us" data-aos="zoom-in">
   <div className="for-contact-us-form">
   <h2>Just over a month into my trip and I wonder how I’ve changed, if at all. Certainly the <br /> experiences I’ve had and things I’ve seen have shaped me in someway.</h2>
     <div className="social-contact">

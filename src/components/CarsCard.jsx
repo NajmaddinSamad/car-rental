@@ -1,4 +1,4 @@
-import React   from 'react'
+import {React, useEffect }  from 'react'
 import './style/Normalize.css'
 import './style/CarSection.css'
 import { AiFillStar } from "react-icons/ai";
@@ -6,10 +6,15 @@ import { AiOutlineStar } from "react-icons/ai";
 import { BsFillPersonFill } from "react-icons/bs";
 import { MdLuggage } from "react-icons/md";
 import { TbEngine } from "react-icons/tb";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const CarsCard = ({imgCard1, imgCard2,carName, carModel,passengerCount, luggageCount, transmission, price }) => {
+  useEffect(() => {
+    AOS.init();
+  }, [])
   return (
   <>
-  <div className="col-12 col-md-6 col-lg-4">
+  <div className="col-12 col-md-6 col-lg-4" data-aos="fade-up"  data-aos-duration="500">
     <div className="everything-about-cars">
     <div className="img-cars">
   <img src={imgCard1} alt="" />
