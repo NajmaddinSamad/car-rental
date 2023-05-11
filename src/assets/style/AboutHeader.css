@@ -38,14 +38,14 @@
         padding: 0 30px;
     }
 }
-@media(max-width:991px){
+@media(max-width:992px){
     .about-header{
-        padding: 0 16px;
+        padding: 0 25px;
     }
 }
 @media(max-width:768px){
     .about-header{
-        padding: 0 10px;
+        padding: 0 20px;
     }
     .about-header h1 br{
         display: none;
@@ -58,11 +58,11 @@
 @media(max-width:576px){
  
     .about-header{
-        padding: 0 4px;
+        padding: 0 16px;
     }
 }
 @media(max-width:376px){
     .about-header{
-        padding: 0 2px;
+        padding: 0 10px;
     }
 }

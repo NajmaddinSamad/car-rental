@@ -47,14 +47,14 @@
 }
 
 .left-side-down-icons div{
-    margin: 0 !important;
-    padding: 0 !important;
+    margin: 0  !important;
+    padding: 0  !important;
 }
 
 .left-side-booking-down div  h5{
     margin-left: 5px;
     padding: 0;
-    font-size: .9rem;
+    font-size: .8rem;
     color: #000;
 }
 
@@ -98,7 +98,7 @@ margin: 0 !important;
 .included, .not-included{
     width: 100%;
     padding: 20px 0;
-    font-size: 1rem;
+    font-size: .79rem;
   
 }
 
@@ -255,27 +255,27 @@ margin: 0 !important;
         margin: 0 !important;
     }
 }
-@media(max-width:991px){
+@media(max-width:992px){
     .car-booking-about{
-        padding: 0 16px !important;
+        padding: 0 25px !important;
         margin: 0 !important;
     }
 }
 @media(max-width:768px){
     .car-booking-about{
-        padding: 0 10px !important;
+        padding: 0 20px !important;
         margin: 0 !important;
     }
 }
 @media(max-width:576px){
     .car-booking-about{
-        padding: 0 4px !important;
+        padding: 0 16px !important;
         margin: 0 !important;
     }
 }
 @media(max-width:376px){
     .car-booking-about{
-        padding: 0 2px !important;
+        padding: 0 10px !important;
         margin: 0 !important;
     }
 }

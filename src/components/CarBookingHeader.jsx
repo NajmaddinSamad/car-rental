@@ -1,6 +1,6 @@
 import React from 'react'
-import './style/Normalize.css'
-import './style/CarBookingHeader.css'
+import '../assets/style/Normalize.css'
+import '../assets/style/CarBookingHeader.css'
 import { FiCamera } from "react-icons/fi"
 import { BsPlay } from "react-icons/bs";
 

@@ -9,6 +9,7 @@ footer{
     background-color: #111;
     padding: 50px 40px 0;
     color: #fff;
+    
 }
 
 footer a:hover{
@@ -18,6 +19,7 @@ footer a:hover{
 footer h4{
     font-size: 1.2rem;
     padding: 10px 0;
+    color: #fff;
 }
 
 footer p,  a{
@@ -25,11 +27,13 @@ footer p,  a{
     font-size: 1rem;
     opacity: .6;
     padding: 8px 0;
+    color: #fff;
 
 }
 
 footer p{
     line-height: 25px;
+    color: #fff;
 }
 
 .about-us img{
@@ -41,7 +45,6 @@ footer p{
 .contact-info{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     padding-bottom: 50px;
 }
 
@@ -143,7 +146,7 @@ width: 100%;
 }
 @media(max-width:992px){
     footer{
-        padding: 50px 16px 0;
+        padding: 50px 25px 0;
      } 
 
      .about-us img{
@@ -155,12 +158,10 @@ width: 100%;
         padding-left: 16px;
         padding-right: 16px;
     }
-
-
 }
 @media(max-width:768px){
    footer{
-        padding: 50px 10px 0;
+        padding: 50px 20px 0;
      } 
      .about-us img{
 
@@ -188,10 +189,11 @@ width: 100%;
    .social-links-footer{
     align-self: center;
    }
+
 }
 @media(max-width:576px){
    footer{
-        padding: 40px 4px 0;
+        padding: 40px 16px 0;
      } 
      .about-us img{
 
@@ -201,7 +203,7 @@ width: 100%;
 }
 @media(max-width:376px){
     footer{
-        padding: 30px 2px 0;
+        padding: 30px 10px 0;
      } 
      .about-us > img{
 

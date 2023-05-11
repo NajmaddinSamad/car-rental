@@ -1,7 +1,7 @@
 import {React} from 'react'
 import { useState, useEffect } from "react";
-import './style/Normalize.css'
-import './style/CarRental.css'
+import '../assets/style/Normalize.css'
+import '../assets/style/CarRental.css'
 import Car from './Car'
 import AOS from 'aos';
 import 'aos/dist/aos.css';

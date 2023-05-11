@@ -1,5 +1,5 @@
 import {React, useEffect} from 'react'
-import './style/ArticleTip.css'
+import '../assets/style/ArticleTip.css'
 import { AiOutlineRight } from "react-icons/ai";
 import AOS from 'aos';
 import 'aos/dist/aos.css';

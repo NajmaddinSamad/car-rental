@@ -1,5 +1,5 @@
 import {React, useEffect} from 'react'
-import './style/CarRental.css'
+import '../assets/style/CarRental.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 const Car = ({carName,carPhoto}) => {

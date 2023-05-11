@@ -1,9 +1,8 @@
 import {React,useEffect} from 'react'
 import { useState} from "react";
-import './AboutTips';
 import AboutTips from './AboutTips'
-import './style/Normalize.css'
-import './style/ArticleTip.css'
+import '../assets/style/Normalize.css'
+import '../assets/style/ArticleTip.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 export const ArticleTip = () => {

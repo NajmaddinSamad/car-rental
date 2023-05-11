@@ -1,6 +1,6 @@
 import React from 'react'
-import './style/Normalize.css'
-import './style/OurTeam.css'
+import '../assets/style/Normalize.css'
+import '../assets/style/OurTeam.css'
 import TeamMember from './TeamMember'
 import { useState, useEffect } from "react";
 const OurTeam = () => {

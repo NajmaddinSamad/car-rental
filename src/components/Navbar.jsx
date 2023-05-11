@@ -1,6 +1,6 @@
 import React, {useRef, useEffect} from 'react'
-import './style/Normalize.css'
-import './style/Navbar.css'
+import '../assets/style/Normalize.css'
+import '../assets/style/Navbar.css'
 import { GoThreeBars } from "react-icons/go";
 import { RxCrossCircled } from "react-icons/rx";
 import { AiFillFacebook } from "react-icons/ai";
@@ -59,9 +59,9 @@ const Navbar = () => {
                <Link  to="/contact">contact</Link>
             </li>
         </ul>
-        <h5>for more information</h5>
-        <span><GiSmartphone className='phone-icon' /><Link  to="tell:1-567-124-44227">1-567-124-44227</Link></span>
-        <span><CiClock2 className='clock-icon'/><Link  to="">Mon - Sat 8.00 - 18.00</Link></span>
+        <h3 className='for-h3'>for more information</h3>
+        <span><span><GiSmartphone className='phone-icon' /></span><a  href="tell:1-567-124-44227">1-567-124-44227</a></span>
+        <span><span><CiClock2 className='clock-icon'/></span><a  href="#">Mon - Sat 8.00 - 18.00</a></span>
         <div className="social">
             <AiFillFacebook className='face'/>
             <TbBrandTwitter className='twitter' />

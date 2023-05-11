@@ -1,6 +1,6 @@
 import React from 'react'
-import './style/Normalize.css'
-import './style/NotFound.css'
+import '../assets/style/Normalize.css'
+import '../assets/style/NotFound.css'
 
 const NotFound = () => {
   return (

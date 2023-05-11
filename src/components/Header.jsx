@@ -1,7 +1,7 @@
 import {React, useEffect} from 'react'
-import './style/Normalize.css'
-import './style/Header.css'
-import Buttons from './Buttons'
+import '../assets/style/Normalize.css'
+import '../assets/style/Header.css'
+import Button from './Buttons'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -43,7 +43,7 @@ const Header = () => {
       <option value="High to Low">High to Low</option>
       <option value="Sort by Review Score">Sort by Review Score</option>
     </select>
-    <Buttons nameOfClass='col-12 col-md-2 col-lg-2 search-btn' valueOfButton='search'/>
+    <Button nameOfClass='col-12 col-md-2 col-lg-2 search-btn' valueOfButton='search'/>
    </form>
 
 </header>
