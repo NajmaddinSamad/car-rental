@@ -38,11 +38,12 @@
       
  }
  
- .fleet h6{
+ .fleet p{
      color: #c6c6c6;
      font-size: 1.1rem;
      font-weight: 500;
      padding: 10px 0 50px;
+     text-align: center;
    
  }
 

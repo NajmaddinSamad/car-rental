@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Button = ({valueOfButton,nameOfClass,}) => {
+const Buttons = ({valueOfButton,nameOfClass,}) => {
   return (
-      <button className={nameOfClass}  >{valueOfButton}</button>
+      <button className={nameOfClass} type='submit'  >{valueOfButton}</button>
   )
 }
 
-export default Button
+export default Buttons

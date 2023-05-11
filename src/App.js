@@ -52,12 +52,11 @@ setTimeout(()=>{
                <Route path="contact" element={<Contact />} />
                <Route path="about" element={<About />} />
                <Route path="*" element={<NotFound />} />
-       
            </Routes>
            <Footer/>
          </BrowserRouter>
       )
-    };
+    }
  
 
     
@@ -65,4 +64,4 @@ setTimeout(()=>{
   );
 }
 
-export default App;
+export default App

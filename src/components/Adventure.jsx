@@ -39,4 +39,4 @@ const Adventure = () => {
   );
 };
 
-export default Adventure;
+export default Adventure

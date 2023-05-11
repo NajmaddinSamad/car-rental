@@ -6,6 +6,7 @@
 }
 
 .car-rental{
+    margin: 0;
     padding: 60px 40px 0;
 }
 .first-class{
@@ -27,12 +28,11 @@
     margin-bottom: 30px;
     padding: 0 15px;
     cursor: pointer;
-
 }
 
 .car:hover{
-    transform: translateY(-5px);
-    transition: transform .6s ease;
+    transform: translateY(-5px) !important;
+    transition: transform .6s ease !important;
 }
 
 .for-img{
@@ -42,7 +42,7 @@
 
 .for-img img{
     width: 100%;
-    height: 50vh;
+    height: 45vh;
     object-fit: cover;
     border-radius: 10px;
 
@@ -65,7 +65,7 @@
     }
 }
 
-@media(max-width:991px){
+@media(max-width:992px){
     .car-rental{
         padding: 50px 16px 0;
     }
@@ -81,6 +81,10 @@
     }
     .we-offer{
         padding-bottom: 40px;
+    }
+
+    .car{
+        padding: 0;
     }
 }
 

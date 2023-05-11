@@ -1,7 +1,7 @@
 import {React,useEffect} from 'react'
 import './style/Normalize.css'
 import './style/Footer.css'
-import Buttons from './Buttons'
+import Button from './Buttons'
 import { MdOutlinePlace } from "react-icons/md";
 import { TfiFacebook } from "react-icons/tfi";
 import { GrTwitter } from "react-icons/gr";
@@ -45,7 +45,7 @@ const Footer = () => {
         <h4>Newsletter</h4>
         <p>Don't miss a thing! Sign up to receive daily deals</p>
         <input type="text" name="" id="" placeholder='Your Email Address' />
-       <Buttons valueOfButton='Subscribe'  nameOfClass='subscribe-btn'/>
+       <Button valueOfButton='Subscribe'  nameOfClass='subscribe-btn'/>
     </form>
 
     <div className="creater row">
