@@ -67,7 +67,7 @@
     background-color: #222;
     width: 0;
     overflow-x: hidden;
- 
+    transition: all .3s ease;
 }
 
 .off-canvas-links{
@@ -122,7 +122,6 @@ h5{
 .insta , .face , .pinterest , .twitter , .youtube {
     color: #fff;
     margin-right: 10px;
-    margin-top: 20px;
     font-size: 1.6rem;
     cursor: pointer;
 
@@ -141,21 +140,28 @@ h5{
 
 .social{
     margin-left: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px 0 10px;
 }
 
 .off-canvas h5{
     padding-bottom: 40px;
+    text-align: start;
 }
-.off-canvas span h5 , a{
+.off-canvas span,  h5 , a{
     color: #fff;
     font-size: .9rem;
     font: bold;
+}
+.off-canvas span a:hover{
+color: #fff;
 }
 
 .is-active{
     width:27%;
     transition: width .3s ease;
-    overflow-x: hidden;
 }
 
 .add{

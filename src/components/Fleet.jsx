@@ -19,10 +19,10 @@ const Fleet = () => {
     <h3  data-aos="zoom-in">
         our fleet, your fleet
     </h3>
-    <h6  data-aos="zoom-in">
+    <p  data-aos="zoom-in">
     We know the difference is in the details and that’s why our car rental services, in the tourism <br />
 and business industry, stand out for their quality and good taste, to offer you an unique experience
-    </h6>
+    </p>
 
     <a href="tell:(54)-344-4533-4"  data-aos="zoom-in">Call Now (54)-344-4533-4</a>
 <Button nameOfClass='fleet-btn' valueOfButton='Request a Quote'  data-aos="zoom-in"/>

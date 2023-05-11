@@ -14,7 +14,7 @@ const CarsCard = ({imgCard1, imgCard2,carName, carModel,passengerCount, luggageC
   }, [])
   return (
   <>
-  <div className="col-12 col-md-6 col-lg-4" data-aos="fade-up"  data-aos-duration="500">
+  <div className="col-12 col-md-6 col-lg-4 for-next-div" data-aos="fade-up"  data-aos-duration="500">
     <div className="everything-about-cars">
     <div className="img-cars">
   <img src={imgCard1} alt="" />

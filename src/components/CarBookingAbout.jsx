@@ -1,4 +1,5 @@
 import {React, useEffect} from "react";
+import { useState} from "react";
 import "./CarsCard";
 import "./style/Normalize.css";
 import "./style/CarBookingAbout.css";
@@ -14,14 +15,20 @@ import { FaCarSide } from "react-icons/fa";
 import { RxCross1 } from "react-icons/rx";
 import Buttons from './Buttons'
 import CarsCard from "./CarsCard";
-import carData from '../AboutCar.json'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 const CarBookingAbout = ({carName, carModel, passengerCount, luggageCount,transmission,doors }) => {
   useEffect(() => {
     AOS.init();
-  }, [])
+  }, []);
+  const [data, setData] = useState(null);
+
+  useEffect(() => {
+    fetch("https://res.cloudinary.com/doqjpxywu/raw/upload/v1683540766/AboutCar_dy4uy0")
+      .then((res) => res.json())
+      .then((data) => setData(data));
+ }, []);
   return (
     <>
       <section className="car-booking-about row">
@@ -168,12 +175,11 @@ This car's been viewed 544 times in the past week
             <h4>Similar cars</h4>
           </div>
           <div className="similar-cars-down row">
-            {
-              carData.map(data=>(
-                <CarsCard imgCard1={data.carPhoto1} imgCard2={data.carPhoto2} carName={data.carName} carModel={data.carModel} passengerCount={data.numberOffPassengers} luggageCount={data.luggages} transmission={data.transmission} price={data.price}/>
-              ))
-            }
-           
+             {data &&
+        data.map((item) => {
+          return <CarsCard imgCard1={item.carPhoto1} imgCard2={item.carPhoto2} carName={item.carName} carModel={item.carModel} passengerCount={item.numberOffPassengers} luggageCount={item.luggages} transmission={item.transmission} price={item.price}/>
+        })}
+         
           </div>
         </div>
       </section>
@@ -181,4 +187,4 @@ This car's been viewed 544 times in the past week
   );
 };
 
-export default CarBookingAbout;
+export default CarBookingAbout

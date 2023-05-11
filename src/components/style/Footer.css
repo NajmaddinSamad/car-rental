@@ -28,6 +28,10 @@ footer p,  a{
 
 }
 
+footer p{
+    line-height: 25px;
+}
+
 .about-us img{
     padding: 8px 0;
     max-width: 100%;
@@ -64,6 +68,7 @@ footer p,  a{
    justify-content: center;
    color: #fff;
     margin:15px  5px 0;
+    cursor: pointer;
 }
 
 .social-links-footer span:nth-child(1){
@@ -95,7 +100,6 @@ margin-bottom: 10px;
 outline: none;
 border-color: transparent;
 border-radius: 5px;
-color: #fff;
 font-size: 1.2rem;
 text-align: center;
 padding: 10px ;

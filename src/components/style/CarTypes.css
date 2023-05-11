@@ -6,6 +6,7 @@
 }
 
 .car-types{
+    margin: 0;
     padding: 60px 40px 50px;
 }
 
@@ -33,8 +34,8 @@
 
  
 .type:hover{
-    transform: translateY(-5px);
-    transition: transform .6s ease;
+    transform: translateY(-5px) !important;
+    transition: transform .6s ease !important;
 
 }
 
@@ -45,7 +46,7 @@
 
 .for-img-type img{
     width: 100%;
-    height: 50vh;
+    height: 45vh;
     object-fit: cover;
     border-radius: 10px;
 
@@ -84,6 +85,9 @@
     }
     .we-offer-type{
         padding-bottom: 40px;
+    }
+    .type{
+        padding: 0;
     }
 }
 
