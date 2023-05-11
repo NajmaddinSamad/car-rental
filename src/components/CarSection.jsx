@@ -1,6 +1,6 @@
 import React from 'react'
-import './style/Normalize.css'
-import './style/CarSection.css'
+import '../assets/style/Normalize.css'
+import '../assets/style/CarSection.css'
 import CarsCard from './CarsCard'
 import { useState, useEffect } from "react";
 

@@ -1,8 +1,8 @@
 import {React, useEffect} from 'react'
-import './style/Normalize.css'
-import './style/Fleet.css'
+import '../assets/style/Normalize.css'
+import '../assets/style/Fleet.css'
 import Button from './Buttons'
-import backVideo from "../bgvideo/Lexus Exclusive Limousine Service.mp4"
+import backVideo from "../assets/bgvideo/Lexus Exclusive Limousine Service.mp4"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 const Fleet = () => {

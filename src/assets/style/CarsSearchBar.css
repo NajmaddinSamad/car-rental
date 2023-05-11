@@ -59,14 +59,14 @@ max-width: 23%;
         padding:50px 57px ;
     }
 }
-@media(max-width:991px){
+@media(max-width:992px){
     .for-cars-search-box{
         padding:50px 43px ;
     }
 }
 @media(max-width:768px){
     .for-cars-search-box{
-        padding:50px 10px ;
+        padding:50px 20px ;
     }
 
     .cars-header-search-box{
@@ -82,11 +82,11 @@ max-width: 23%;
 }
 @media(max-width:576px){
     .for-cars-search-box{
-        padding:40px 4px ;
+        padding:40px 16px ;
     }
 }
 @media(max-width:376px){
     .for-cars-search-box{
-        padding:30px 2px ;
+        padding:30px 10px ;
     }
 }

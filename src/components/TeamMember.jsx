@@ -1,6 +1,6 @@
 import {React, useEffect} from 'react'
-import './style/Normalize.css'
-import './style/OurTeam.css'
+import '../assets/style/Normalize.css'
+import '../assets/style/OurTeam.css'
 import { GrTwitter } from "react-icons/gr";
 import { FaFacebookF } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";

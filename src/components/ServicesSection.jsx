@@ -1,7 +1,7 @@
 import {React, useEffect} from 'react'
-import './style/Normalize.css'
-import './style/ServicesSection.css'
-import Buttons from './Buttons'
+import '../assets/style/Normalize.css'
+import '../assets/style/ServicesSection.css'
+import Button from './Buttons'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -19,7 +19,7 @@ const ServicesSection = () => {
       <p>Meh synth Schlitz, tempor duis single-origin coffee ea next level ethnic fingerstache fanny pack nostrud. Photo booth anim 8-bit hella, PBR 3 wolf moon beard Helvetica. Salvia esse nihil, flexitarian Truffaut synth art party deep v chillwave. Seitan High Life reprehenderit consectetur cupidatat kogi. Et leggings fanny pack, elit bespoke vinyl art party Pitchfork selfies master cleanse Kickstarter seitan retro.
 
 </p>
-      <Buttons nameOfClass="services-btn" valueOfButton="View Plan & Price"/>
+      <Button nameOfClass="services-btn" valueOfButton="View Plan & Price"/>
     </div>
     </div>
     <div className="second row" data-aos="flip-up">
@@ -28,7 +28,7 @@ const ServicesSection = () => {
       <p>Meh synth Schlitz, tempor duis single-origin coffee ea next level ethnic fingerstache fanny pack nostrud. Photo booth anim 8-bit hella, PBR 3 wolf moon beard Helvetica. Salvia esse nihil, flexitarian Truffaut synth art party deep v chillwave. Seitan High Life reprehenderit consectetur cupidatat kogi. Et leggings fanny pack, elit bespoke vinyl art party Pitchfork selfies master cleanse Kickstarter seitan retro.
 
 </p>
-      <Buttons nameOfClass="services-btn" valueOfButton="View Plan & Price"/>
+      <Button nameOfClass="services-btn" valueOfButton="View Plan & Price"/>
     </div>
     <div className="second-right col-12 col-md-6 col-lg-6"><img src="https://grandcarrentalv1.b-cdn.net/wp-content/uploads/2017/01/nw6xremkxkg-nicolai-berntsen.jpg" alt="" /></div>
     </div>
@@ -39,7 +39,7 @@ const ServicesSection = () => {
       <p>Meh synth Schlitz, tempor duis single-origin coffee ea next level ethnic fingerstache fanny pack nostrud. Photo booth anim 8-bit hella, PBR 3 wolf moon beard Helvetica. Salvia esse nihil, flexitarian Truffaut synth art party deep v chillwave. Seitan High Life reprehenderit consectetur cupidatat kogi. Et leggings fanny pack, elit bespoke vinyl art party Pitchfork selfies master cleanse Kickstarter seitan retro.
 
 </p>
-      <Buttons nameOfClass="services-btn" valueOfButton="View Plan & Price"/>
+      <Button nameOfClass="services-btn" valueOfButton="View Plan & Price"/>
     </div>
     </div>
     </section>

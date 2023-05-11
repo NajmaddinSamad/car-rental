@@ -69,9 +69,9 @@
     }
 }
 
-@media(max-width:991px){
+@media(max-width:992px){
     .car-types{
-        padding: 50px 16px 30px;
+        padding: 50px 25px 30px;
     }
 
     .we-offer-type{
@@ -81,7 +81,7 @@
 
 @media(max-width:768px){
     .car-types{
-        padding: 40px 10px 20px;
+        padding: 40px 20px 20px;
     }
     .we-offer-type{
         padding-bottom: 40px;
@@ -89,21 +89,27 @@
     .type{
         padding: 0;
     }
+    .for-img-type img{
+        height: 65vh;
+    }
 }
 
 
 @media(max-width:576px){
     .car-types{
-        padding: 40px 4px 10px;
+        padding: 40px 16px 10px;
     }
     .we-offer-type{
         padding-bottom: 30px;
+    }
+    .for-img-type img{
+        height: 45vh;
     }
 
 }
 @media(max-width:376px){
     .car-types{
-        padding: 30px  2px 5px;
+        padding: 30px  10px 5px;
     }
     .we-offer-type{
         padding-bottom: 30px;

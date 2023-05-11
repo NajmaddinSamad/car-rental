@@ -1,6 +1,6 @@
-import {React,useEffect} from 'react'
-import './style/Normalize.css'
-import './style/Footer.css'
+import {React,useEffect, useState} from 'react'
+import '../assets/style/Normalize.css'
+import '../assets/style/Footer.css'
 import Button from './Buttons'
 import { MdOutlinePlace } from "react-icons/md";
 import { TfiFacebook } from "react-icons/tfi";
@@ -16,7 +16,8 @@ import 'aos/dist/aos.css';
 const Footer = () => {
     useEffect(() => {
         AOS.init();
-      }, [])
+      }, []);
+     
   return (
    <>
    <footer className="row"  >

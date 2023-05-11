@@ -133,15 +133,15 @@ padding-top: 7px;
       
     }
 }
-@media(max-width:991px){
+@media(max-width:992px){
 
   main.everything-for-cars{
-    padding: 0 16px 50px;
+    padding: 0 25px 50px;
   }
 }
 @media(max-width:768px){
     main.everything-for-cars{
-        padding: 0 10px 50px;
+        padding: 0 20px 50px;
       
     }
 
@@ -151,10 +151,13 @@ padding-top: 7px;
     .everything-about-cars{
         margin:15px 0;
     }
+    .img-cars img{
+        height: 65vh;
+    }
 }
 @media(max-width:576px){
     main.everything-for-cars{
-        padding: 0 4px 40px;
+        padding: 0 16px 40px;
       
     }
 
@@ -162,11 +165,13 @@ padding-top: 7px;
         padding: 0;
         margin:15px 0;     
     }
-
+    .img-cars img{
+        height: 45vh;
+    }
 }
 @media(max-width:376px){
     main.everything-for-cars{
-        padding: 0 2px 30px;
+        padding: 0 10px 30px;
       
     }
 }

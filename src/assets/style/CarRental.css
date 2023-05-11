@@ -67,7 +67,7 @@
 
 @media(max-width:992px){
     .car-rental{
-        padding: 50px 16px 0;
+        padding: 50px 25px 0;
     }
 
     .we-offer{
@@ -77,7 +77,7 @@
 
 @media(max-width:768px){
     .car-rental{
-        padding: 40px 10px 0;
+        padding: 40px 20px 0;
     }
     .we-offer{
         padding-bottom: 40px;
@@ -86,21 +86,26 @@
     .car{
         padding: 0;
     }
+    .for-img img{
+        height: 65vh;
+    }
 }
 
 
 @media(max-width:576px){
     .car-rental{
-        padding: 40px 4px 0;
+        padding: 40px 16px 0;
     }
     .we-offer{
         padding-bottom: 30px;
     }
-
+    .for-img img{
+        height: 45vh;
+    }
 }
 @media(max-width:376px){
     .car-rental{
-        padding: 30px  2px;
+        padding: 30px  10px;
     }
     .we-offer{
         padding-bottom: 30px;

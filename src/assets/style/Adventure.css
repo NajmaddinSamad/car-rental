@@ -63,14 +63,14 @@ word-spacing: 3px;
         padding: 40 30px;
     }
 }
-@media(max-width:991px){
+@media(max-width:992px){
     .adventure{
-        padding: 40px 16px;
+        padding: 40px 25px;
     }
 }
 @media(max-width:768px){
     .adventure{
-        padding: 40px 10px;
+        padding: 40px 20px;
     }
     .count-left , .count-right{
         padding:20px 0 ;
@@ -87,12 +87,12 @@ word-spacing: 3px;
 }
 @media(max-width:576px){
     .adventure{
-        padding: 40px 4px;
+        padding: 40px 16px;
     }
 
 }
 @media(max-width:376px){
     .adventure{
-        padding: 30px 2px;
+        padding: 30px 10px;
     }
 }

@@ -1,6 +1,6 @@
 import {React, useEffect} from 'react'
-import './style/Normalize.css'
-import './style/AboutHeader.css'
+import '../assets/style/Normalize.css'
+import '../assets/style/AboutHeader.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 

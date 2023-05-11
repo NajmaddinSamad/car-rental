@@ -1,6 +1,6 @@
 import {React, useEffect} from "react";
-import "./style/Normalize.css";
-import "./style/Adventure.css";
+import "../assets/style/Normalize.css";
+import "../assets/style/Adventure.css";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 

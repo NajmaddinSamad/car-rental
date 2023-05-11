@@ -111,14 +111,6 @@ transition: color  1.2s ease;
     transition: transform 1.2s ease;
 }
 
-h5{
-    color: #fff;
-    text-transform: capitalize;
-    font-size: 1.2rem;
-    padding-bottom: 20px;
-    margin-left: 40px;
-}
-
 .insta , .face , .pinterest , .twitter , .youtube {
     color: #fff;
     margin-right: 10px;
@@ -146,21 +138,28 @@ h5{
     padding:20px 0 10px;
 }
 
-.off-canvas h5{
+.off-canvas .for-h3{
+    color: #fff;
     padding-bottom: 40px;
     text-align: start;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-left: 40px;
 }
-.off-canvas span,  h5 , a{
+.off-canvas span  a{
     color: #fff;
-    font-size: .9rem;
+    font-size: 1rem;
     font: bold;
+    padding-bottom: 15px;
 }
+
 .off-canvas span a:hover{
 color: #fff;
 }
 
 .is-active{
-    width:27%;
+    width:40%;
     transition: width .3s ease;
 }
 
@@ -230,9 +229,9 @@ transform: translateY(5px);
 }
 }
 
-@media(max-width:991px){
+@media(max-width:992px){
 .my-navbar{
-    padding: 0 16px;
+    padding: 0 25px;
     }
 
 .ul-links li a{
@@ -248,7 +247,7 @@ transform: translateY(5px);
 
 @media(max-width:768px){
 .my-navbar{
-    padding: 0 10px;
+    padding: 0 20px;
     }
 .bar-icon{
     display: flex;
@@ -264,9 +263,7 @@ transform: translateY(5px);
     padding-bottom: 10px;
 }
 
-.is-active{
-    width: 30%;
-}
+
 
 .insta , .face , .pinterest , .twitter , .youtube {
     margin-right: 5px;
@@ -288,11 +285,11 @@ transform: translateY(5px);
     margin-left: 20px;
 }
 
-.off-canvas h5{
+.off-canvas .for-h3{
     padding-bottom: 30px;
     margin-left: 20px;
 }
-.off-canvas span h5 , a{
+.off-canvas span  a{
     font-size: .9rem;
     font: bold;
 }
@@ -301,7 +298,7 @@ transform: translateY(5px);
 
 @media(max-width:576px){
 .my-navbar{
-    padding: 0 4px;
+    padding: 0 16px;
     }
 
     .logo img{
@@ -337,32 +334,33 @@ transform: translateY(5px);
         margin-left: 10px;
     }
     
-    .off-canvas h5{
+    .off-canvas .for-h3{
         padding-bottom: 30px;
-        margin-left: 15px;
+        margin-left: 10px;
     }
-    .off-canvas span h5 , a{
+    .off-canvas span a{
         font-size: .9rem;
     }
 }
 
 @media(max-width:376px){
 .my-navbar{
-        padding: 0 2px;
+        padding: 0 10px;
         justify-content: space-between;
     
     }
     .is-active{
-        width: 40%;
+        width: 60%;
     }
     
     .logo img{
         width: 50%;
     }
 
-    .off-canvas h5{
+    .off-canvas .for-h3{
         padding-bottom: 20px;
         margin-left: 10px;
+        font-size: .9rem;
     }
     .social{
         margin-left: 10px;
@@ -375,16 +373,12 @@ transform: translateY(5px);
        padding-bottom: 30px;
     }
     
-    .off-canvas h5{
-        padding-bottom: 20px;
-        margin-left: 10px;
-    }
     .x-icon{
         top: 20px;
         right: 20px;
     }
-    .off-canvas span h5 , a{
-        font-size: .7rem;
+    .off-canvas span  a{
+        font-size: .8rem;
  
     }
 

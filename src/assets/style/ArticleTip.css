@@ -107,9 +107,9 @@
     }
 }
 
-@media(max-width:991px){
+@media(max-width:992px){
     .article{
-        padding: 60px 16px;
+        padding: 60px 25px;
     }
 
     .tips-card{
@@ -127,7 +127,7 @@
 
 @media(max-width:768px){
     .article{
-        padding: 50px 10px;
+        padding: 50px 20px;
     }
 
     .article h6{
@@ -142,7 +142,7 @@
 
 @media(max-width:576px){
     .article{
-        padding: 40px 4px;
+        padding: 40px 16px;
     }
     .article h6{
         padding-bottom: 40px;
@@ -155,7 +155,7 @@
 
 @media(max-width:376px ){
     .article{
-        padding: 30px 2px;
+        padding: 30px 10px;
     }
 
     .article h6{

@@ -1,7 +1,6 @@
 import React from 'react'
-import './style/Normalize.css'
-import './style/CarsHeader.css'
-import Buttons from './Buttons'
+import '../assets/style/Normalize.css'
+import '../assets/style/CarsHeader.css'
 
 const CarsHeader = () => {
   return (

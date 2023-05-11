@@ -1,6 +1,6 @@
 import {React, useEffect} from 'react'
-import './style/Normalize.css'
-import './style/ChooseUs.css'
+import '../assets/style/Normalize.css'
+import '../assets/style/ChooseUs.css'
 import { FaCarSide } from "react-icons/fa";
 import { BsEmojiSmile } from "react-icons/bs";
 import { AiOutlineHeart } from "react-icons/ai";

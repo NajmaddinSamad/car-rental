@@ -1,6 +1,6 @@
 import {React, useEffect }  from 'react'
-import './style/Normalize.css'
-import './style/CarSection.css'
+import '../assets/style/Normalize.css'
+import '../assets/style/CarSection.css'
 import { AiFillStar } from "react-icons/ai";
 import { AiOutlineStar } from "react-icons/ai";
 import { BsFillPersonFill } from "react-icons/bs";

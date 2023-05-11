@@ -1,7 +1,7 @@
 import {React, useEffect} from 'react';
-import './style/Normalize.css'
-import './style/CarsSearchBar.css'
-import Buttons from './Buttons';
+import '../assets/style/Normalize.css'
+import '../assets/style/CarsSearchBar.css'
+import Button from './Buttons';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -34,7 +34,7 @@ const CarsSearchBar = () => {
       <option value="High to Low">High to Low</option>
       <option value="Sort by Review Score">Sort by Review Score</option>
     </select>
-    <Buttons nameOfClass='col-12 col-md-3 col-lg-3 searching-btn' valueOfButton='search'/>
+    <Button nameOfClass='col-12 col-md-3 col-lg-3 searching-btn' valueOfButton='search'/>
    </form>
    </section>
    </>
