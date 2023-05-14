@@ -131,7 +131,6 @@ transition: color  1.2s ease;
 }
 
 .social{
-    margin-left: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -281,9 +280,7 @@ transform: translateY(5px);
     margin-left: 20px;
 }
 
-.social{
-    margin-left: 20px;
-}
+
 
 .off-canvas .for-h3{
     padding-bottom: 30px;
