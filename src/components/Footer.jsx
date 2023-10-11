@@ -56,7 +56,7 @@ const Footer = () => {
        </div>
        <div className="right-side-footer col-12 col-md-6 col-lg-6">
         <Link to="/cars">Cars</Link>
-        <Link to="/booking">Booking</Link>
+        {/* <Link to="/booking">Booking</Link> */}
         <Link to="/services">Services</Link>
         <Link to="/about">About</Link>
         <Link to="/contact">Contact</Link>

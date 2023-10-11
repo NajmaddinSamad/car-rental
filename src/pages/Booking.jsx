@@ -1,4 +1,3 @@
-import React from 'react'
 import CarBookingHeader from '../components/CarBookingHeader'
 import CarBookingAbout from '../components/CarBookingAbout'
 import { Helmet } from 'react-helmet'

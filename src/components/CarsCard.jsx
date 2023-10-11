@@ -7,15 +7,20 @@ import { MdLuggage } from 'react-icons/md';
 import { TbEngine } from 'react-icons/tb';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { useNavigate } from 'react-router-dom';
+
 
 const CarsCard = ({ imgCard1, imgCard2, carName, carModel, passengerCount, luggageCount, transmission, price }) => {
   useEffect(() => {
     AOS.init();
   }, []);
-
+  const navigate = useNavigate();
+const handleClick = ()=>{
+navigate('/booking')
+}
   return (
     <>
-      <div className="col-12 col-md-6 col-lg-4 for-next-div" data-aos="fade-up" data-aos-duration="500">
+      <div className="col-12 col-md-6 col-lg-4 for-next-div" data-aos="fade-up" data-aos-duration="500" onClick={handleClick}>
         <div className="everything-about-cars">
           <div className="img-cars">
             <img src={imgCard1} alt="" />

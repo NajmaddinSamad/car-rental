@@ -51,6 +51,7 @@
     font-size: 2.2rem;
     color:#fff;
     cursor: pointer;
+    pointer-events:all;
 }
 /* .ul-links li a:hover , .bar-icon:hover{
     color:#04DBC0;
@@ -103,13 +104,14 @@ transition: color  1.2s ease;
     color: #fff;
     border-radius: 30px;
     cursor: pointer;
+    pointer-events:all;
 
 }
 
-.x-icon:hover{
+/* .x-icon:hover{
     transform:translateY(-5px);
     transition: transform 1.2s ease;
-}
+} */
 
 .insta , .face , .pinterest , .twitter , .youtube {
     color: #fff;
