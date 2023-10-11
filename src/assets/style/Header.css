@@ -73,6 +73,13 @@ option{
 
 }
 
+.home-header .cars-header-search-box{
+    border: none;
+    box-shadow: none;
+
+}
+
+
 
 /* ---media queries  */
 

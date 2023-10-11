@@ -9,15 +9,14 @@ export const AboutTips = ({tipsPhoto, tipsHeader, tipsDate, tipsParagraph}) => {
     AOS.init();
   }, [])
   return (
-   
     <>
     <div className="tips-card col-12 col-md-3 col-lg-3" data-aos="zoom-in-out">
-        <img src={tipsPhoto} alt="" />
+        <img src={tipsPhoto}  />
      <div className="for-text">
        <h5>{tipsDate}</h5>
         <h4>{tipsHeader}</h4>
         <p>{tipsParagraph}</p>
-        <a href="#">Read More <AiOutlineRight className= "read-arrow"/></a>
+        <a href="#">Read More <AiOutlineRight className="read-arrow"/></a>
         </div>
     </div>
 

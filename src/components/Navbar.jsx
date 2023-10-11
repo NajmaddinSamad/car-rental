@@ -22,7 +22,7 @@ const Navbar = () => {
     const openOffcanvas = (e)=>{
         const clicked = e.target;
         if(clicked.classList.contains('bar-icon')){
-          offcanvasRef.current.classList.add('is-active');
+          offcanvasRef.current.classList.toggle('is-active');
         }
       };
       const closeOffcanvas = (e)=>{
@@ -46,9 +46,9 @@ const Navbar = () => {
             <li>
                <Link  to="/cars">cars</Link>
             </li>
-            <li>
+            {/* <li>
                <Link  to="/booking">booking</Link>
-            </li>
+            </li> */}
             <li>
                <Link  to="/services">services</Link>
             </li>
@@ -81,9 +81,6 @@ const Navbar = () => {
             </li>
             <li>
                <Link  to="/cars">cars</Link>
-            </li>
-            <li>
-               <Link  to="/booking">booking</Link>
             </li>
             <li>
                <Link  to="/services">services</Link>
