@@ -10,15 +10,15 @@ import Contact from './pages/Contact';
 import About from './pages/About';
 import NotFound from './components/NotFound';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { useState, useEffect } from 'react';
+import { useState,  useLayoutEffect } from 'react';
 
 function App() {
   const [loading, setLoading] = useState(false);
-useEffect(()=>{
+useLayoutEffect(()=>{
 setLoading(true);
 setTimeout(()=>{
   setLoading(false);
-}, 5000);
+}, 3600);
 }, []);
   return (
     <>
